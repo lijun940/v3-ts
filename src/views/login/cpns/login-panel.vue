@@ -1,19 +1,17 @@
 <template>
-  <div class="app">
-    <router-view></router-view>
+  <div class="login-panel">
+    <h1 class="title">后台管理系统</h1>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+
 export default defineComponent({
-  name: 'App'
+  setup() {
+    return {}
+  }
 })
 </script>
 
-<style lang="less">
-.app {
-  width: 100%;
-  height: 100%;
-}
-</style>
+<style scoped></style>
